@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'home#about'
   get '/about' => 'home#about'
 end
 
