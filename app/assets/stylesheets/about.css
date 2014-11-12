@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+}
+
+html {
+  background: #ddd;  
+}
+
+#content {
+  width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 1em;
+}
