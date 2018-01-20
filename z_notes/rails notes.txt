@@ -1,0 +1,106 @@
+ create new app
+
+$ rails new biz_card -O -T
+
+not using data base
+
+-O
+escape active reactord
+
+-T 
+escapte test
+
+==
+controller
+
+will handle request from server
+
+application_controller.rb : default controller
+
+if you have a specific resource you need, then create a custom controllers
+
+other controllers will inherit from application
+
+
+==
+
+views
+
+this is where the html files are
+
+==
+to start server
+
+$ rails s 
+
+http://0.0.0.0:3000
+
+==
+
+config -> routes.rb
+
+==
+
+
+# database relies on CRUD
+
+# web apps rely on REST
+there is resourse
+- create, update , get, delete, read resouse
+
+==
+
+make controller
+
+make views
+- create folder named for the controller. create files for methods.
+
+==
+
+xxx.html.erb
+tells ruby to process the file
+
+erb is default
+==
+
+models
+
+- try to map model to domain
+
+- save to database. hopefully the model will represent a domain
+
+- things you are saving into a database
+
+==
+
+MVC
+
+make a model for each big concept
+
+the view represents the model
+
+controller routes the request and get info from database, and send response to view
+
+==
+
+assets: things you send to browser
+
+application.css and application.js are already going to the app
+==
+use helper to add images and use erb files
+<%= image_tag 'test.png' =>
+
+heruko adds hash, so don't use <img src""> to add images
+
+===
+
+for css, use helper image-url and scss files
+==
+
+git init
+git add. 
+git commit -m "init commit"
+
+==
+
+

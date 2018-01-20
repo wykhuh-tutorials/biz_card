@@ -1,0 +1,25 @@
+git@heroku.com:card-june19.git 
+
+===
+
+1) go to project folder
+
+2) rails s: start rails server
+
+3) localhost:3000/
+
+== 
+
+look at errors when you push to heroku
+
+if gem is missing, add to Gemfile.
+
+
+??
+
+commit Gemfile and Gemfile.loc
+
+pusk to heroku again
+
+==
+
